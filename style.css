@@ -1,8 +1,26 @@
 .menu-container {
     display: flex;
     justify-content: space-evenly;
+    background-color: black;
+    padding: 5px;
+
+    color: white;
 }
 
 .menu-items {
     display: flex;
+}
+
+.menu-items li {
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+.menu-items li:hover {
+    color: blue;
+    cursor: pointer;
+
 }
