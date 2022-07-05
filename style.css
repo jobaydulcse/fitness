@@ -24,3 +24,23 @@
     cursor: pointer;
 
 }
+
+.banner-container {
+    color: white;
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.banner-description {
+    margin-left: 50px;
+
+}
+
+.banner-text {
+    color: red;
+    font-size: 25px;
+}
