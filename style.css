@@ -1,4 +1,8 @@
-.manu-container {
+.menu-container {
     display: flex;
     justify-content: space-evenly;
+}
+
+.menu-items {
+    display: flex;
 }
